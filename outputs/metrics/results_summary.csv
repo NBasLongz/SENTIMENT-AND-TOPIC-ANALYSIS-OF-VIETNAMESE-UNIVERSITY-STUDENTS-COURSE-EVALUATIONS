@@ -1,0 +1,12 @@
+﻿Model,Task,Metric,Value
+PhoBERT multitask,Sentiment,F1_macro,0.7910731879969806
+PhoBERT multitask,Topic,F1_micro,0.881733746130031
+PhoBERT multitask,Topic,Hamming,0.06032849020846494
+PhoBERT multitask,Topic,Jaccard(samples),0.8810802274162982
+mBERT multitask,Sentiment,F1_macro,0.7926872583951191
+mBERT multitask,Topic,F1_micro,0.8852662630026393
+mBERT multitask,Topic,Hamming,0.058354390397978524
+mBERT multitask,Topic,Jaccard(samples),0.8840808591282375
+TF-IDF + OVR LR,Topic,F1_micro,0.8621395935087443
+TF-IDF + OVR LR,Topic,Hamming,0.06909349336702464
+TF-IDF + OVR LR,Topic,Jaccard(samples),0.8618130132659507

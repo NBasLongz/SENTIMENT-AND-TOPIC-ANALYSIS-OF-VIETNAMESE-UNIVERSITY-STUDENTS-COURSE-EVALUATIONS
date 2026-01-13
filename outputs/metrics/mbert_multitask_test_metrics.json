@@ -1,0 +1,18 @@
+{
+  "sentiment": {
+    "accuracy": 0.9226152874289324,
+    "f1_macro": 0.7926872583951191,
+    "f1_weighted": 0.9175730699747658,
+    "kappa": 0.8561334818360801,
+    "mcc": 0.8570195233401148,
+    "cm_path": "c:\\Users\\ASUS\\Downloads\\CS221_S-T_ ANALYSIS OF VNST\\outputs\\figures\\mbert_multitask_test_sent_cm.png"
+  },
+  "topic": {
+    "threshold": 0.35,
+    "f1_micro": 0.8852662630026393,
+    "f1_macro": 0.7703256332381153,
+    "f1_samples": 0.8895556959359866,
+    "hamming": 0.058354390397978524,
+    "jaccard_samples": 0.8840808591282375
+  }
+}

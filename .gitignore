@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+notebooks/output_artifacts/
+notebooks/output_eda/
+
+# Model files (usually very large)
+outputs/models/
+*.pth
+*.pt
+*.bin
+*.h5
+*.ckpt
+*.safetensors
+*.joblib
+
+# Model checkpoints
+checkpoint-*/
+final_model/
+
+# Dataset caches
+datasets/raw/download_cache/
+datasets/raw/hf_cache/
+
+# Output files
+outputs/output_data/
+outputs/figures/
+
+# Keep only metric summaries, ignore large intermediate files
+outputs/metrics/threshold_sweep_val.csv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Environment
+.env
+.venv
