@@ -2,7 +2,7 @@
 
 Phân tích đánh giá của sinh viên Việt Nam bằng mô hình Multi-task BERT cho **Sentiment Classification** (3 lớp) và **Topic Classification** (4 lớp, multi-label).
 
-## 📊 Tổng quan dự án
+##  Tổng quan dự án
 
 Dự án này sử dụng các mô hình Transformer (PhoBERT và mBERT) để phân tích đồng thời:
 - **Sentiment**: negative, neutral, positive
