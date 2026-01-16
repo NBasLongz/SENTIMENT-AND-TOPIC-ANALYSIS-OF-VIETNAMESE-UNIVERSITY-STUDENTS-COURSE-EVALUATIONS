@@ -8,14 +8,14 @@ Dự án này sử dụng các mô hình Transformer (PhoBERT và mBERT) để p
 - **Sentiment**: negative, neutral, positive
 - **Topics**: lecturer, training_program, facility, others
 
-### 🎯 Điểm nổi bật
+###  Điểm nổi bật
 - Multi-task learning cho 2 tasks cùng lúc
 - Hỗ trợ 2 models: PhoBERT (Vietnamese-specific) và mBERT (multilingual)
 - Multi-label classification cho topics
 - Demo UI với Streamlit
 - Đầy đủ utilities cho training, evaluation, và inference
 
-## 📁 Cấu trúc dự án
+##  Cấu trúc dự án
 
 ```
 .
@@ -43,7 +43,7 @@ Dự án này sử dụng các mô hình Transformer (PhoBERT và mBERT) để p
 └── README.md
 ```
 
-## 🚀 Cài đặt
+##  Cài đặt
 
 ### 1. Clone repository
 ```bash
@@ -65,7 +65,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## 📦 Yêu cầu hệ thống
+##  Yêu cầu hệ thống
 
 - Python 3.8+
 - PyTorch 1.12+
@@ -75,7 +75,7 @@ pip install -r requirements.txt
 
 Xem chi tiết trong [requirements.txt](requirements.txt)
 
-## 🎮 Sử dụng
+##  Sử dụng
 
 ### 1. Demo UI với Streamlit
 
@@ -163,7 +163,7 @@ from src.eval_utils import print_metrics_summary
 print_metrics_summary(metrics)
 ```
 
-## 📊 Dataset
+##  Dataset
 
 Dataset gồm feedback của sinh viên UIT về:
 - **Sentiment labels**: negative (0), neutral (1), positive (2)
@@ -181,7 +181,7 @@ sentence,sentiment_id,sentiment,topic_id,topic
 "nhiệt tình giảng dạy",2,positive,0,lecturer
 ```
 
-## 🧠 Models
+##  Models
 
 ### PhoBERT Multi-task
 - **Backbone**: `vinai/phobert-base`
@@ -200,7 +200,7 @@ Mỗi model folder chứa:
 - `tokenizer files`: Tokenizer config và vocab
 - `bundle_config.json`: Model configuration
 
-## 📈 Kết quả
+##  Kết quả
 
 Xem chi tiết trong `outputs/metrics/`:
 - `phobert_multitask_test_metrics.json`: PhoBERT metrics
@@ -208,7 +208,7 @@ Xem chi tiết trong `outputs/metrics/`:
 - `results_summary.csv`: Tổng hợp so sánh các models
 - `best_threshold.json`: Optimal threshold cho topic classification
 
-## 🔧 Training
+##  Training
 
 Để train lại models, xem notebooks trong `notebooks/`:
 1. `EDA_Preprocessing.ipynb`: Phân tích và tiền xử lý dữ liệu
@@ -216,7 +216,7 @@ Xem chi tiết trong `outputs/metrics/`:
 3. `Train_multitask_mbert.ipynb`: Training mBERT
 4. `Threshold_tuning_baseline.ipynb`: Tìm optimal threshold
 
-## 🤝 Contributing
+##  Contributing
 
 Mọi đóng góp đều được hoan nghênh! Vui lòng:
 1. Fork repository
@@ -225,7 +225,7 @@ Mọi đóng góp đều được hoan nghênh! Vui lòng:
 4. Push to branch (`git push origin feature/AmazingFeature`)
 5. Mở Pull Request
 
-## 📝 License
+##  License
 
 Dự án này được phát triển cho mục đích học tập và nghiên cứu.
 
@@ -233,13 +233,13 @@ Dự án này được phát triển cho mục đích học tập và nghiên c�
 
 - **Your Name** - *Initial work*
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Dataset: Vietnamese Students' Feedback (UIT)
 - PhoBERT: VinAI Research
 - Transformers: HuggingFace
 
-## 📞 Contact
+##  Contact
 
 Nếu có câu hỏi, vui lòng liên hệ: [your-email@example.com]
 
